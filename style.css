@@ -1,0 +1,286 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+.Home{
+    background-color: #222f3d;
+}
+.nav-bar{
+    height: 50px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+margin-top: 15px;
+
+}
+
+.nav-bar a{
+    color: white; 
+    text-decoration-line: none;
+}
+.nav-bar:hover{
+ background-color: green;
+}
+
+
+.main-heading{
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+
+}
+.main-heading:hover{
+    background-color: aqua;
+}
+
+.portfolio{
+    margin-top: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-image: url(nazar.jpeg);
+    background-size: cover;
+   margin-left: 44%;
+   border: 5px solid black;
+}
+
+
+footer{
+    margin-top: 20px;
+}
+
+
+.foot-pannel1{
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    }
+    .foot-pannel2{
+        background-color: #222f3d;
+        color: white;
+        height: 200px;
+        display: flex;
+        justify-content: space-evenly;
+       
+    }
+    .foot-pannel2:hover{
+        background-color: fuchsia;
+    }
+
+    ul{
+        margin-top: 1rem;
+    }
+    ul a{
+        display: block;
+        font-size: 0.85rem;
+        margin-top: 10px;
+        color: #DDDDDD;
+    }
+    
+    
+    .social-links{
+        margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    }
+
+    .social-links:hover{
+        background-color: cornflowerblue;
+    }
+    .last-pannel2{
+        height: 50px;
+        width: 100%;
+        color: white;
+        display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+    }
+
+    .last-pannel2:hover{
+        background-color: white;
+    }
+
+    .designer-footer{
+        height:40px;
+        width: 100%;
+        color: white;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    
+    }
+
+    .designer-footer:hover{
+        background-color: darkseagreen;
+    }
+    .designer-footer1{
+        margin-top: 10px;
+        /* height:40px; */
+        width: 100%;
+        /* background-color: greenyellow; */
+        color: white;
+        display: contents;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+.marquee{
+    margin-top:20px;
+}
+
+    /* About */
+
+    .about{
+        height: 730px;
+        background-color: darkslategray;
+        border: 10px solid deepskyblue;
+        border-radius: 10PX;
+    }
+    
+   
+
+    .Personal-Information{
+        margin-left: 41%;
+      height: 300px;
+      width: 33%;
+     color: white;
+    }
+    .personal-data{
+        background-color: yellow;
+    }
+
+    .Education-Information{
+        margin-left: 41%;
+      height: 200px;
+      width: 33%;
+     margin-top: 80px;
+     color: white;
+    }
+ .image{
+      
+        height: 100%;
+        width:40%;
+        background-image: url(nazar.jpeg);
+        background-size: cover;
+        justify-content: flex-start;
+        position: absolute;
+       
+    }
+
+
+
+    /* Contact */
+
+    .link{
+        background-color: chartreuse;
+        border-radius: 10px;
+    }
+    .body{
+        border: 10px solid rgb(20, 214, 52);
+        border-radius: 10px;
+        margin: 0px;
+        padding: 0px;
+        background-color: #222f3d;
+    }
+    .contact{
+      height: 500px;
+      width: 50%;
+      margin-left: 30%;
+      margin-top: 200px;
+
+    }
+
+   .anchor{
+    height: 30px;
+    background-color: darkgoldenrod;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+text-decoration-line: none;
+padding:10px;
+border: 2px solid yellow;
+border-radius: 8px;
+   }
+
+
+
+   /* Services */
+
+   .services{
+    margin: 0px;
+    padding: 0px;
+    background-color: #37475a;
+    color: white;
+    border: 5px solid deepskyblue;
+   }
+
+   .serviceH1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+   }
+
+  .class{
+    position: absolute;
+    margin-top: 40px;
+    background-color:coral
+  }
+
+  .myClass{
+    height: 95px;
+    width: 300px;
+    background-color: darkgoldenrod;
+  text-decoration-style: none;
+  margin-left:40% ;
+   }  
+
+
+   /* Skills */
+
+   .skills{
+    margin: 0px;
+    padding: 0px;
+    background-color: #222f3d;
+    border: 5px solid red;
+    margin-top: 10px;
+
+    
+   }
+
+   .skills1{
+    height: 40px;
+    width: 50%;
+    margin-left: 30%;
+    border-radius: 10px;
+    background-color: darkcyan;
+    color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    
+   }
+
+   .languages{
+    width: 30%;
+    margin-left: 41%;
+    background-color: darkolivegreen;
+    color: white;
+    text-decoration: none;
+   }
